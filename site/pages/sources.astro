@@ -1,0 +1,159 @@
+---
+import Base from "../layouts/Base.astro";
+import { dashboard } from "../lib/data.ts";
+import { fmtDate, fmtStamp } from "../lib/format.ts";
+
+// Sources first, then the record they make, the downloads, and the analysis built on them.
+const d = dashboard();
+const p = d.proof;
+const pv = p.provenance;
+// Day ranges like "Nov 9–11" (or "Nov 30 – Dec 2").
+const span = (a: string, b: string) => {
+  const [ma, da] = fmtDate(a, false).split(" ");
+  const [mb, db] = fmtDate(b, false).split(" ");
+  return ma === mb ? `${ma} ${da}–${db}` : `${ma} ${da} – ${mb} ${db}`;
+};
+const next = pv?.freshness.nextReport;
+const fresh: { value: string; label: string; href?: string }[] = pv
+  ? [
+      { value: fmtDate(pv.reports.latest), label: "Latest weekly reservoir report (PDF)", href: d.latest.sourceUrl },
+      ...(pv.weather.watershed ? [{ value: fmtDate(pv.weather.watershed.last), label: "Weather through" }] : []),
+      ...(next
+        ? [
+            {
+              value: span(next.postedFrom, next.postedTo),
+              label:
+                next.status === "late"
+                  ? `Next report late (dated ${fmtDate(next.date, false)})`
+                  : `Next report expected (dated ${fmtDate(next.date, false)})`,
+            },
+          ]
+        : []),
+    ]
+  : [];
+const facts = new Map(p.sources.map((s) => [s.name, s.facts]));
+const coverage = (p.provenance?.reports.years ?? []).map((y) => {
+  const missing = new Map(y.missing.map((w, k) => [w, y.missingDates[k] ?? ""]));
+  return {
+    ...y,
+    cells: Array.from({ length: 53 }, (_, i) =>
+      i >= y.weeks
+        ? { cls: "none" }
+        : missing.has(i)
+          ? { cls: "off", title: `No report for ${fmtDate(missing.get(i) as string)}` }
+          : { cls: "on" },
+    ),
+  };
+});
+---
+
+<Base
+  title="Sources and data | Victoria Water"
+  description="Where the numbers on Victoria Water come from: CRD Water Watch reports, the Internet Archive, Open-Meteo and Environment and Climate Change Canada. Also coverage, downloads and methods."
+  path="/sources/"
+  payload={null}
+>
+  <section class="block page-head" aria-labelledby="h1">
+    <p class="kicker">Sources</p>
+    <h1 id="h1" class="takeaway">With thanks to the people who collect and share this data</h1>
+    <p class="note">
+      Every number on this site comes from the CRD’s Infrastructure &amp; Water Services, Environment and Climate Change
+      Canada, Statistics Canada, and Open-Meteo with Copernicus. The Internet Archive saved the older reports.
+    </p>
+  </section>
+
+  <section class="block" id="sources" aria-label="Sources">
+    <ul class="source-cards">
+      {
+        d.sources.map((s) => (
+          <li class="card source-card">
+            <p class="by">{s.by}</p>
+            <h2>
+              <a href={s.url} rel="noopener">{s.name}</a>
+            </h2>
+            <p class="what">{s.what}</p>
+            {(facts.get(s.name) ?? []).map((f) => <p class="fact">{f}</p>)}
+            <a class="licence" href={s.licenceUrl} rel="noopener">{s.licence.replace(/ — see .*$/, "")}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="block" id="freshness" aria-labelledby="freshness-h">
+    <header class="block-head">
+      <p class="kicker">Freshness</p>
+      <h2 id="freshness-h" class="takeaway">Last checked {pv?.freshness.lastChecked ? fmtStamp(pv.freshness.lastChecked) : "–"}</h2>
+    </header>
+    <div class="card">
+      <div class="figures fresh">
+        {
+          fresh.map((f) => (
+            <div class="figure">
+              <div class="value">{f.href ? <a href={f.href}>{f.value}</a> : f.value}</div>
+              <div class="label">{f.label}</div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="coverage-block" aria-labelledby="coverage-h">
+    <header class="block-head">
+      <p class="kicker">Coverage</p>
+      <h2 id="coverage-h" class="takeaway">{p.headlines.coverage}</h2>
+    </header>
+    <div class="card proof">
+      <div class="coverage" id="coverage" role="img" aria-label={p.headlines.coverage}>
+        <div class="cov-head"><span><i class="cell on"></i>report</span><span><i class="cell off"></i>no report</span></div>
+        {
+          coverage.map((y) => (
+            <div class="cov-row">
+              <span class="cov-year">{y.year}</span>
+              <span class="cells">{y.cells.map((c) => <i class={`cell ${c.cls}`} title={c.title} />)}</span>
+              <span class="cov-n">{y.reports}</span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="reuse" aria-labelledby="reuse-h">
+    <header class="block-head">
+      <p class="kicker">Open data</p>
+      <h2 id="reuse-h" class="takeaway">Free to download and reuse</h2>
+    </header>
+    <div class="card proof">
+      <ul class="downloads" id="downloads">
+        {
+          p.downloads.map((x) => (
+            <li><a href={x.path}>{x.label}</a> <span class="fmt">{x.format}</span></li>
+          ))
+        }
+      </ul>
+      <p class="proof-small" id="downloads-note">{p.headlines.downloadsNote}</p>
+      {p.repoUrl && <p class="proof-small"><a href={p.repoUrl} rel="noopener">Source code</a></p>}
+    </div>
+  </section>
+
+  <section class="block" id="methods" aria-labelledby="methods-h">
+    <header class="block-head">
+      <p class="kicker">Method</p>
+      <h2 id="methods-h" class="takeaway">How each number is made</h2>
+    </header>
+    <div class="card proof">
+      <div class="methods" id="methods-list">
+        {
+          p.methods.map((m) => (
+            <details>
+              <summary>{m.claim}</summary>
+              <p>{m.how}</p>
+            </details>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

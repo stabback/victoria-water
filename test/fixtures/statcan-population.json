@@ -1,0 +1,2056 @@
+[
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185048,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 10793.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 10829.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 10878.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 10911.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 10967.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 11020.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 10965.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 10947.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 10980.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 11082.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 11211.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 11287.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 11365.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 11414.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 11396.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 11616.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 11678.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 11860.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 12041.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 12248.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 12623.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 13045.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 13209.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 13253.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 12986.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185049,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 11293.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 11332.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 11383.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 11419.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 11470.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 11488.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 11417.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 11551.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 11450.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 11429.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 11268.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 11428.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 11442.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 11611.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 11733.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 12004.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 12193.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 12354.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 12382.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 12531.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 12614.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 13060.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 13197.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 13301.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 13445.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185050,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 15933.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 15960.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 15982.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 15986.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 16044.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 16121.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 16164.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 16195.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 16226.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 16222.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 16155.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 16368.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 16513.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 16709.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 16942.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 17457.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 17626.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 17832.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 17859.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 18014.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 17989.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 18171.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 18125.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 18314.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 18184.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185051,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 108170.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 108687.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 109186.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 109647.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 110395.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 111422.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 111192.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 111641.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 112344.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 112480.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 112014.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 113278.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 115057.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 116064.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 116881.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 119209.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 119841.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 120312.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 121795.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 122584.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 122889.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 124028.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 124465.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 126219.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 126011.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185054,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 18399.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 18368.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 18342.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 18286.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 18270.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 18243.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 18388.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 18346.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 18367.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 18399.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 18180.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 18394.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 18580.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 18648.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 18411.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 18654.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 18382.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 18405.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 18359.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 18465.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 18533.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 18815.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 18736.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 18777.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 18626.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185055,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 77863.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 78295.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 78725.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 79198.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 79912.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 80892.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 80957.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 81293.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 81934.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 82343.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 82464.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 83422.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 85139.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 86573.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 88248.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 90236.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 91802.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 93668.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 95789.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 96399.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 96277.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 98540.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 100558.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 103077.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 103888.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185056,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 16908.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 16991.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 17054.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 17125.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 17249.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 17348.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 17370.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 16969.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 16953.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 16750.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 16616.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 17252.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 17397.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 17762.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 18000.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 18527.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 18382.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 18606.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 18681.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 18515.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 18298.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 18759.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 19072.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 19184.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 19512.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185057,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 14375.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 14500.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 14648.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 14773.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 14958.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 15152.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 15459.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 15792.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 16079.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 16408.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 16463.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 16664.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 16838.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 16987.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 17068.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 17669.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 17949.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 18339.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 18883.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 19330.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 19798.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 20972.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 21590.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 22236.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 22794.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185058,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 5063.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 5032.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 4985.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 4942.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 4906.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 4920.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 4852.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 4907.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 4812.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 4915.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 4866.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 4928.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 4927.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 4890.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 4840.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 4901.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 5031.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 5196.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 5229.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 5203.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 5252.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 5329.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 5309.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 5336.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 5207.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185059,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 19795.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 20407.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 21033.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 21692.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 22418.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 23267.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 24630.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 25650.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 27243.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 29003.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 30183.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 31733.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 33173.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 34320.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 35618.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 37313.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 39577.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 41639.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 43502.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 46333.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 49199.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 52484.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 54732.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 57567.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 59664.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185060,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 7617.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 7860.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 8106.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 8372.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 8675.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 9026.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 9032.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 9227.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 9350.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 9467.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 9582.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 9871.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 10056.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 10577.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 10663.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 10870.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 11185.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 11327.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 11607.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 11885.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 12062.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 12443.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 12481.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 12678.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 12795.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185061,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 1750.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 1792.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 1830.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 1867.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 1912.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 1961.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 1966.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 1963.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 2036.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 2081.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 2170.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 2226.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 2244.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 2292.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 2311.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 2323.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 2409.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 2468.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 2514.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 2527.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 2581.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 2691.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 2713.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 2746.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 2753.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ },
+ {
+  "status": "SUCCESS",
+  "object": {
+   "vectorId": 1592185062,
+   "vectorDataPoint": [
+    {
+     "refPer": "2001-01-01",
+     "refPerRaw": "2001-07-01",
+     "value": 9114.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2002-01-01",
+     "refPerRaw": "2002-07-01",
+     "value": 9255.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2003-01-01",
+     "refPerRaw": "2003-07-01",
+     "value": 9405.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2004-01-01",
+     "refPerRaw": "2004-07-01",
+     "value": 9563.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2005-01-01",
+     "refPerRaw": "2005-07-01",
+     "value": 9747.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2006-01-01",
+     "refPerRaw": "2006-07-01",
+     "value": 9995.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2007-01-01",
+     "refPerRaw": "2007-07-01",
+     "value": 10285.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2008-01-01",
+     "refPerRaw": "2008-07-01",
+     "value": 10613.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2009-01-01",
+     "refPerRaw": "2009-07-01",
+     "value": 11000.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2010-01-01",
+     "refPerRaw": "2010-07-01",
+     "value": 11380.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2011-01-01",
+     "refPerRaw": "2011-07-01",
+     "value": 11719.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2012-01-01",
+     "refPerRaw": "2012-07-01",
+     "value": 12276.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2013-01-01",
+     "refPerRaw": "2013-07-01",
+     "value": 12540.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2014-01-01",
+     "refPerRaw": "2014-07-01",
+     "value": 12857.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2015-01-01",
+     "refPerRaw": "2015-07-01",
+     "value": 13069.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2016-01-01",
+     "refPerRaw": "2016-07-01",
+     "value": 13623.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2017-01-01",
+     "refPerRaw": "2017-07-01",
+     "value": 14109.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2018-01-01",
+     "refPerRaw": "2018-07-01",
+     "value": 14485.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2019-01-01",
+     "refPerRaw": "2019-07-01",
+     "value": 14803.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2020-01-01",
+     "refPerRaw": "2020-07-01",
+     "value": 15236.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2021-01-01",
+     "refPerRaw": "2021-07-01",
+     "value": 15712.0,
+     "releaseTime": "2025-01-16T08:30"
+    },
+    {
+     "refPer": "2022-01-01",
+     "refPerRaw": "2022-07-01",
+     "value": 16432.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2023-01-01",
+     "refPerRaw": "2023-07-01",
+     "value": 16815.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2024-01-01",
+     "refPerRaw": "2024-07-01",
+     "value": 17145.0,
+     "releaseTime": "2026-01-14T08:30"
+    },
+    {
+     "refPer": "2025-01-01",
+     "refPerRaw": "2025-07-01",
+     "value": 17248.0,
+     "releaseTime": "2026-01-14T08:30"
+    }
+   ]
+  }
+ }
+]

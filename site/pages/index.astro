@@ -1,0 +1,206 @@
+---
+import { POPULATION, SITE_URL } from "../../src/config.ts";
+import Gauge from "../components/Gauge.astro";
+import Base from "../layouts/Base.astro";
+import { dashboard } from "../lib/data.ts";
+import { fmtDate, nf0, pct, signed } from "../lib/format.ts";
+
+// Everything outside the charts is rendered here, once per build; site/scripts/app.ts draws the charts.
+const d = dashboard();
+const { latest, health, story, supply } = d;
+const typ = health.seasonal.typicalPct;
+const ly = health.seasonal.lastYearPct;
+// Differences between two levels, in % of capacity: "−12%".
+const diff = (v: number) => `${signed(Math.round(v), (x) => nf0.format(x))}%`;
+const stats = [
+  typ === null ? null : { label: "vs typical", value: diff(latest.totalPct - typ), sub: `typical: ${pct(typ, 0)}` },
+  ly === null ? null : { label: "vs last year", value: diff(latest.totalPct - ly), sub: `then: ${pct(ly, 0)}` },
+  {
+    label: `Week to ${fmtDate(latest.date, false).replace(" ", "\u00a0")}`,
+    value: diff(latest.weekChangePct),
+    sub: `was ${pct(latest.prevPct, 0)}`,
+  },
+].filter((s) => s !== null);
+const months = supply.daysNoRain / 30.44;
+const cy = d.seasonal.currentYear;
+const title = `Victoria water levels: ${pct(latest.totalPct, 0)} full on ${fmtDate(latest.date)}`;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  name: "Greater Victoria reservoir levels",
+  description:
+    "Weekly useable storage of Sooke Lake Reservoir and the Goldstream reservoirs (Greater Victoria, British Columbia), with weekly water demand and rainfall, from 2009 to today. Also daily weather at the Sooke Lake watershed and in Victoria (Gonzales).",
+  keywords: [
+    "Victoria BC water levels",
+    "Greater Victoria reservoirs",
+    "water supply",
+    "reservoir storage",
+    "water demand",
+    "rainfall",
+  ],
+  isAccessibleForFree: true,
+  spatialCoverage: {
+    "@type": "Place",
+    name: "Greater Victoria, British Columbia, Canada",
+    geo: { "@type": "GeoCoordinates", latitude: 48.55, longitude: -123.7 },
+  },
+  temporalCoverage: "2009-01-01/..",
+  dateModified: latest.date,
+  creator: { "@type": "Organization", name: "Capital Regional District", url: "https://www.crd.ca/" },
+  distribution: [
+    { "@type": "DataDownload", encodingFormat: "text/csv", contentUrl: `${SITE_URL}/data/reservoir.csv` },
+    { "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE_URL}/data/reservoir.json` },
+  ],
+};
+// The charts here don't need the sources page's part of the payload.
+const { proof: _proof, ...payload } = d;
+---
+
+<Base title={title} description="Water levels for Victoria, BC: Greater Victoria's reservoirs today and back to 2009. Updated weekly from CRD Water Watch, with rain, water use and a refill outlook." path="/" payload={payload}>
+  <Fragment slot="head">
+    <meta name="keywords" content="Victoria water levels, Sooke Lake Reservoir level, Greater Victoria water supply, CRD water watch, reservoir storage, drought, Victoria BC" />
+    <meta property="og:title" content="Greater Victoria’s reservoirs today" />
+    <meta property="og:description" content="Reservoir levels for Greater Victoria, BC, now and since 2009, with rain, water use and a refill outlook." />
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
+  </Fragment>
+  <section class="hero" id="today" aria-labelledby="h1">
+    <div class="hero-inner">
+      <h1 id="h1" class="hero-title">Greater Victoria’s water supply</h1>
+      <div class="hero-grid">
+        <div class="gauge" id="gauge"><Gauge d={d} /></div>
+        <div class="hero-body">
+          <p class="verdict" id="verdict">
+            <b class={`word ${health.provisional ? "" : health.level}`}><i class="status-dot" aria-hidden="true"></i>{story.verdict.word}</b>{" "}
+            {story.verdict.text}
+          </p>
+          <dl class="stats" id="stats">
+            {
+              stats.map((st) => (
+                <div>
+                  <dt>{st.label}</dt>
+                  <dd>
+                    <span class="value">{st.value}</span>
+                    <span class="delta">{st.sub}</span>
+                  </dd>
+                </div>
+              ))
+            }
+          </dl>
+        </div>
+      </div>
+    </div>
+    <a class="more" href="#outlook">
+      <span>Outlook</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+    </a>
+  </section>
+
+  <section class="block" id="outlook" aria-labelledby="outlook-h">
+    <header class="block-head">
+      <p class="kicker">Outlook</p>
+      <h2 id="outlook-h" class="takeaway">{story.outlook}</h2>
+      <p class="lede">
+        Fall and winter rain fills the reservoirs, usually by late December. They stay full until late May, then slowly
+        drain through the dry summer. By late October they’re about two-thirds full, and the rain starts to fill them
+        again.
+      </p>
+    </header>
+    <div class="card">
+      <div class="figures" id="outlook-figures">
+        <div class="figure">
+          <div class="value">{nf0.format(supply.refillProbability * 100)}%</div>
+          <div class="label">chance it’s full ({health.fullPct}%+) by {fmtDate(supply.refillBy, false)}</div>
+        </div>
+        <div class="figure">
+          <div class="value">{months >= 23.5 ? "Over 2 years" : `${nf0.format(Math.floor(months))} months`}</div>
+          <div class="label">if it never rained again</div>
+        </div>
+      </div>
+      <div class="legend" id="outlook-legend"></div>
+      <div class="plot-host" id="outlook-chart"></div>
+    </div>
+  </section>
+
+  <section class="block" id="year" aria-labelledby="year-h">
+    <header class="block-head">
+      <p class="kicker">This year</p>
+      <h2 id="year-h" class="takeaway">{story.year}</h2>
+      <p class="note" id="year-note">{story.why ?? ""}</p>
+    </header>
+    <div class="card">
+      <div class="legend" id="year-legend"></div>
+      <div class="plot-host" id="year-chart"></div>
+      <div class="chips" id="year-chips" role="radiogroup" aria-label="Compare with year"></div>
+    </div>
+  </section>
+
+  <section class="block" id="rain" aria-labelledby="rain-h">
+    <header class="block-head">
+      <p class="kicker">Rain</p>
+      <h2 id="rain-h" class="takeaway">{story.rain}</h2>
+      <p class="note" id="rain-note">{story.rainNote ?? ""}</p>
+    </header>
+    <div class="card">
+      <div class="seg" id="rain-view" role="radiogroup" aria-label="Rain view"></div>
+      <div class="legend" id="rain-legend"></div>
+      <div class="plot-host" id="rain-chart"></div>
+    </div>
+  </section>
+
+  <section class="block" id="use" aria-labelledby="use-h">
+    <header class="block-head">
+      <p class="kicker">Water use</p>
+      <h2 id="use-h" class="takeaway">{story.use}</h2>
+      <p class="note" id="use-drop">{story.useDropNote ?? ""}</p>
+      <p class="note" id="use-note">{story.useNote ?? ""}</p>
+      <p class="note" id="use-scenario">{story.dryYearNote ?? ""}</p>
+    </header>
+    <div class="card">
+      <div class="figures" id="use-figures">
+        <div class="figure">
+          <div class="value">{nf0.format(latest.demandWeekMld ?? 0)}</div>
+          <div class="label">million litres a day, week of {fmtDate(latest.date, false)}</div>
+        </div>
+        {
+          d.demand.weekTypicalMld !== null && (
+            <div class="figure">
+              <div class="value">{nf0.format(d.demand.weekTypicalMld)}</div>
+              <div class="label">typical for that week, {d.seasonal.firstYear}–{cy - 1}</div>
+            </div>
+          )
+        }
+        {
+          d.demand.perPerson && (
+            <div class="figure">
+              <div class="value">{nf0.format(d.demand.perPerson.last.litres)}</div>
+              <div class="label">
+                litres each of us used a day in {d.demand.perPerson.last.year} ({nf0.format(d.demand.perPerson.first.litres)} in{" "}
+                {d.demand.perPerson.first.year})
+              </div>
+            </div>
+          )
+        }
+      </div>
+      <div class="seg" id="use-view" role="radiogroup" aria-label="Water use view"></div>
+      <div class="legend" id="use-legend"></div>
+      <div class="plot-host" id="use-chart"></div>
+      <p class="chart-note" id="use-estimate" hidden>
+        Estimates. No one counts exactly how many of us the system serves, so this uses the population of the{" "}
+        {Object.keys(POPULATION.areas).length} municipalities it supplies. Use per person also includes businesses, schools and
+        hospitals, not just homes.
+      </p>
+      <div class="chips primary" id="use-chips" role="radiogroup" aria-label="Year"></div>
+    </div>
+  </section>
+
+  <section class="block" id="history" aria-labelledby="history-h">
+    <header class="block-head">
+      <p class="kicker">History</p>
+      <h2 id="history-h" class="takeaway">{story.history}</h2>
+      <p class="note" id="history-note">{story.historyNote ?? ""}</p>
+    </header>
+    <div class="card">
+      <div class="plot-host" id="history-chart"></div>
+    </div>
+  </section>
+</Base>

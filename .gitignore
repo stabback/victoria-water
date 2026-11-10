@@ -1,0 +1,14 @@
+node_modules
+/dist
+/data
+coverage
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+dist-next
+dist-prev
+.astro
+.update.lock
+CLAUDE.local.md
